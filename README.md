@@ -1,5 +1,7 @@
 <h1 align="center">Next Level Week #4</h1> <p align="center"><strong>(ReactJS)</strong></p>
 
+<p><img src="./public/logo-full.svg" alt="Will be avaliable soon." width="120"/></p>
+
 ### About
 Project developed during Next Level Week #4 event from [@Rocketseat](https://github.com/rocketseat). The chosen path was ReactJS taught by [@diego3g](https://github.com/diego3g), which will also bring lessons for the use of the Next.js framework.
 
@@ -8,10 +10,6 @@ Project developed during Next Level Week #4 event from [@Rocketseat](https://git
 
 ### Demo
 Will be avaliable soon.
-
-<br>
-<p align="center"><img src="./public/logo-full.svg" alt="Will be avaliable soon." width="250"/></p>
-<br>
   
 ### Tools used
 * [ReactJS](https://reactjs.org/docs)
