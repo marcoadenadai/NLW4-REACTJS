@@ -1,5 +1,5 @@
-<h1 align="center">Next Level Week #4</h1>
-<h2 align="center">(ReactJS)</h2>
+<h1 align="center">Next Level Week #4</h1> <p align="center"><strong>ReactJS</strong></p>
+
 
 Project developed during Next Level Week #4 event from [@Rocketseat](https://github.com/rocketseat). The chosen path was ReactJS taught by [@diego3g](https://github.com/diego3g), which will also bring lessons for the use of the Next.js framework.
 
