@@ -1,34 +1,30 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h1 align="center">Next Level Week #4</h1>
+<h2 align="center">(ReactJS)</h2>
 
-## Getting Started
+Project developed during Next Level Week #4 event from [@Rocketseat](https://github.com/rocketseat). The chosen path was ReactJS taught by [@diego3g](https://github.com/diego3g), which will also bring lessons for the use of the Next.js framework.
 
-First, run the development server:
+### About
+  The application for this edition is called **move.it**, it's an application guided by the technique of pomodoro where the user can use it as a tool to increase his performance during work, better managing the period of work execution between rest intervals.
 
+### Demo
+  Will be avaliable soon.
+  
+### Tools used
+* [ReactJS](https://reactjs.org/docs)
+* [Next.js](https://nextjs.org/docs)
+* [yarn](https://yarnpkg.com/)
+
+### Creating the project
 ```bash
-npm run dev
-# or
+yarn create next-app moveit-next
+yarn add typescript @types/react @types/react-dom @types/node -D
+```
+### Running in your machine
+```bash
+yarn add typescript @types/react @types/react-dom @types/node -D
 yarn dev
 ```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Access [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 ## Deploy on Vercel
-
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
