@@ -3,6 +3,12 @@
 ### About
 Project developed during Next Level Week #4 event from [@Rocketseat](https://github.com/rocketseat). The chosen path was ReactJS taught by [@diego3g](https://github.com/diego3g), which will also bring lessons for the use of the Next.js framework.
 
+
+<p align="center">
+   <img src="./public/logo-full.svg" alt="Move It" width="250"/>
+</p>
+
+
 ### Application
   The application for this edition is called **move.it**, it's an application guided by the technique of pomodoro in which the user can use it as a tool to increase his performance during work, better managing the period of work execution between rest intervals.
 
