@@ -1,5 +1,6 @@
 import '../styles/global.css';
-import { ChallengesContext, ChallengesProvider } from '../contexts/ChallengeContext';
+import { ChallengesProvider } from '../contexts/ChallengeContext';
+import { CountdownProvider } from '../contexts/CountdownContext';
 
 
 //arquivo para reaproveitar componentes para todas as paginas, porém é recalculado
