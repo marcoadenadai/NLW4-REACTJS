@@ -21,7 +21,9 @@ Will be avaliable soon.
 ### Creating the project
 ```bash
 yarn create next-app moveit-next
-yarn add typescript @types/react @types/react-dom @types/node -D
+yarn add typescript @types/react @types/react-dom @types/node -D 
+yarn add js-cookie
+yarn add @types/js-cookie -D
 ```
 ### Running in your machine
 ```bash
