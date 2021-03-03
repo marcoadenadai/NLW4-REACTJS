@@ -2,6 +2,8 @@ import { createContext, useState, ReactNode, useEffect } from 'react';
 import challenges from '../../challenges.json';
 import Cookies from 'js-cookie';
 import { LevelUpModal } from '../components/LevelUpModal';
+import { isMobile } from 'react-device-detect';
+
 
 interface ChallengesProviderProps {
     children: ReactNode;
@@ -46,7 +48,8 @@ export function ChallengesProvider({
     const expToNextLevel = Math.pow((level + 1) * 4, 2);
 
     useEffect(() => {
-        Notification.requestPermission();
+        if (!isMobile)
+            Notification.requestPermission();
     }, []) //side-effect, quando passo um array vazio ele executa a primera função uma única vez
     //quando esse componente for exibido em tela
 
@@ -73,7 +76,7 @@ export function ChallengesProvider({
 
         new Audio('/notification.mp3').play();
 
-        if (Notification.permission === 'granted') {
+        if (!isMobile && Notification.permission === 'granted') {
             console.log("SEND NOTIFCATION!");
             new Notification('Novo desafio!', {
                 body: `Valendo ${challenge.amount}xp!`

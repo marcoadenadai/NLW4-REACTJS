@@ -24,6 +24,12 @@
     }
 }
 
+@media screen and (max-device-width: 400px){
+    html{
+        font-size: 43%
+    }
+}
+
 * { 
     margin: 0;
     padding: 0;

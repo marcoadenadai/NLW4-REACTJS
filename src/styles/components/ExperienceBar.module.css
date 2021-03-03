@@ -4,9 +4,16 @@
     align-items: center;
 }
 
+@media(max-width:370px){
+    .experienceBar{
+        display: flex;
+        align-items: center;
+        margin-bottom: 2rem;
+    }
+}
+
 .experienceBar span{
     font-size: 1rem;
-
 }
 /*a primeira div > */
 .experienceBar > div {
