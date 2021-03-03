@@ -14,7 +14,7 @@ Project developed during Next Level Week #4 event from [@Rocketseat](https://git
 - [yarn](https://yarnpkg.com/)
 
 ### Demo
-Will be avaliable soon.
+https://moveit-marcoadenadai.vercel.app/
   
 
 
@@ -23,13 +23,11 @@ Will be avaliable soon.
 yarn create next-app moveit-next
 yarn add typescript @types/react @types/react-dom @types/node -D 
 yarn add js-cookie && yarn add @types/js-cookie -D
-yarn add react-device-detect
 ```
 ### Running in your machine
 ```bash
 yarn add typescript @types/react @types/react-dom @types/node -D
 yarn add js-cookie && yarn add @types/js-cookie -D
-yarn add react-device-detect
 yarn dev
 ```
 Access [http://localhost:3000](http://localhost:3000) with your browser to see the result.
